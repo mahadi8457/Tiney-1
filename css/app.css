@@ -3956,7 +3956,7 @@ tbody.collapse.in {
   .navbar-default .navbar-nav > li > a {
     color: #777; }
     .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-      color: #333;
+      color: #FFF;
       background-color: transparent; }
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #555;
@@ -3980,7 +3980,7 @@ tbody.collapse.in {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
       color: #777; }
       .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #333;
+        color: #FFF;
         background-color: transparent; }
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
       color: #555;
@@ -3991,11 +3991,11 @@ tbody.collapse.in {
   .navbar-default .navbar-link {
     color: #777; }
     .navbar-default .navbar-link:hover {
-      color: #333; }
+      color: #FFF; }
   .navbar-default .btn-link {
     color: #777; }
     .navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
-      color: #333; }
+      color: #FFF; }
     .navbar-default .btn-link[disabled]:hover, .navbar-default .btn-link[disabled]:focus, fieldset[disabled] .navbar-default .btn-link:hover, fieldset[disabled] .navbar-default .btn-link:focus {
       color: #ccc; }
 
@@ -5893,7 +5893,9 @@ article {
   overflow: hidden;
   margin-top: 35px;
   width: 100%;
-  padding-top: 35px; }
+  padding-top: 35px;
+  background: black !important;
+  color: #FFF; }
 
 .email h1 {
   color: #fcdb00; }
@@ -5909,10 +5911,12 @@ article {
 
 .btn {
   font-weight: bold;
-  padding: 10px;
-  width: 80px;
   border-radius: 3px;
   background: #fcdb00;
   color: black; }
+
+.gb-black {
+  background: #000 !important;
+  color: #FFF; }
 
 /*# sourceMappingURL=app.css.map */
