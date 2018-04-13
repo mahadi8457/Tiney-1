@@ -1,5 +1,6 @@
-@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap"
 @import "customVariables"
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap"
+
 
 
 
@@ -8,7 +9,6 @@ $font-stack:    Helvetica, sans-serif
 $primary-color: #333
 $yellow: #fcdb00
 $grey: #898989
-
 
 
 // mixing
@@ -25,7 +25,7 @@ $grey: #898989
 // main css
 
 body
-  font: 100% $font-stack
+  font: $font-stack
   color: $primary-color
 
 a
@@ -41,25 +41,12 @@ header
 p
   color: $grey
 
-
-.container
-  padding: 20px 10%
-.top-left
-  float: left
-.top-right
-  float: left
-  overflow: hidden
-
-.logo
-  width: 50%
-.menu
-  width: 50%
-.menu ul li a
+#top-left ul li a
   font: $font-stack
   color: #000
   font-weight: 600
 
-.menu ul li
+#top-left ul li
   display: inline-block
   padding: 0 25px
 
